@@ -1,0 +1,52 @@
+{
+  "plugins": ["prettier"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  // "extends": ["plugin:prettier/recommended"],
+  // "extends": "eslint:recommended",
+  "extends": ["xo"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "camelcase": 0,
+    "no-trailing-spaces": 0,
+    "no-multiple-empty-lines": 0,
+    "capitalized-comments": 0,
+    "no-negated-condition": 0,
+    "complexity": 0,
+    "new-cap": 0,
+    "indent": 0,
+    "object-curly-spacing": 0,
+    "eqeqeq": 0,
+    "no-eq-null": 0,
+    "no-await-in-loop": 0,
+    "arrow-parens": 0,
+    "radix": 0,
+    "comma-dangle": 0,
+    "max-depth": 0,
+    "operator-linebreak": 0,
+    "max-params": 0,
+    "no-unused-vars": "warn",
+    "key-spacing": "warn",
+    "no-var": "warn",
+    "comma-spacing": "warn",
+    "padding-line-between-statements": 0,
+    "eol-last": 0,
+    "no-mixed-operators": 0,
+    "padded-blocks": "warn",
+    "prefer-const": "warn",
+    "quotes": 0,
+    "no-multi-spaces": 0,
+    "brace-style": 0,
+    "arrow-spacing": 0,
+    "no-warning-comments": 0,
+    "guard-for-in": 0,
+    "semi": "warn",
+    "curly": 0
+  }
+}
